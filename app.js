@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 
 const homeStartingContent = "On this page, you can view my blog posts, and they will usually have the day or date as the title.";
 const aboutContent = "I am a computer science honors student at the University of Massachusetts Amherst, who is pursuing his interests in Web Development and AI.";
-const contactContent = "Email: akroychowdhu@umass.edu\nLinkedin: adityarc2001";
+const contactContent = ["Email: akroychowdhu@umass.edu","LinkedIn: adityarc2001"];
 
 const app = express();
 
